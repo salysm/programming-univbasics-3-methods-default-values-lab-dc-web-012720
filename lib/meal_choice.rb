@@ -8,7 +8,8 @@ def meal_choice(veg1, veg2, protein='meat')
   order = A plate of #{protein} with #{veg1} and #{veg2}.
   puts order
   
-  return yum order(meal_choice("broccoli", "macaroni")) || yum order(meal_choice("broccoli", "macaroni", "tofu"))
+  return yum order(meal_choice("broccoli", "macaroni")) 
+  return yum order(meal_choice("broccoli", "macaroni", "tofu"))
 end 
 
 
